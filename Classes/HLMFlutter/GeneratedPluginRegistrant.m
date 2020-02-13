@@ -3,9 +3,9 @@
 //
 
 #import "GeneratedPluginRegistrant.h"
-#import <flutter_boost/FlutterBoostPlugin.h>
-#import <fluttertoast/FluttertoastPlugin.h>
-#import <sqflite/SqflitePlugin.h>
+#import "FlutterBoostPlugin.h"
+#import "FluttertoastPlugin.h"
+#import "SqflitePlugin.h"
 
 @implementation GeneratedPluginRegistrant
 

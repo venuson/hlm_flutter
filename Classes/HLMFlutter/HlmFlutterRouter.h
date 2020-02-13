@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <flutter_boost/FlutterBoost.h>
+#import "FlutterBoost.h"
 #import "HlmNativePageRouter.h"
 
 

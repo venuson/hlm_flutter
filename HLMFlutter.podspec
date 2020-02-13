@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HLMFlutter'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'High-performance, high-fidelity mobile apps.'
   s.description      = <<-DESC
 Flutter provides an easy and productive way to build and deploy high-performance mobile apps for Android and iOS.
@@ -15,7 +15,7 @@ Flutter provides an easy and productive way to build and deploy high-performance
   s.source           = { :git => 'https://github.com/flutter/engine', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'Classes/HLMFlutter/**/*'
-  s.public_header_files = 'Classes/HLMFlutter/**/*.h'
+  s.public_header_files = 'Classes/**/*.h'
 
   s.dependency 'Flutter', '1.9.102'
   # s.vendored_frameworks = 'Flutter.framework'
